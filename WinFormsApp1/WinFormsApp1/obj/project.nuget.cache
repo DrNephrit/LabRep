@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZGNnytCk3KFh9Z3RlUSyFVIdopt9K4MbTk8ZRf6STvd2eZkPTTE2Y5iKaGs0pK73keAeTZndiKGEkEipDOnwuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nephrit\\source\\repos\\LabRep\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nephrit\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Nephrit\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Nephrit\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Nephrit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
