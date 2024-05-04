@@ -85,11 +85,11 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.MediumPurple;
-            button4.Font = new Font("Bahnschrift Condensed", 27.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(31, 387);
+            button4.BackColor = Color.White;
+            button4.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.Location = new Point(63, 400);
             button4.Name = "button4";
-            button4.Size = new Size(541, 60);
+            button4.Size = new Size(451, 38);
             button4.TabIndex = 3;
             button4.Text = "Оплатить заказ";
             button4.UseVisualStyleBackColor = false;
@@ -101,9 +101,10 @@
             listView1.BackgroundImage = (Image)resources.GetObject("listView1.BackgroundImage");
             listView1.Columns.AddRange(new ColumnHeader[] { columnHeader4, columnHeader5, columnHeader6 });
             listView1.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            listView1.ForeColor = SystemColors.ActiveCaption;
             listView1.Location = new Point(584, 9);
             listView1.Name = "listView1";
-            listView1.Size = new Size(204, 221);
+            listView1.Size = new Size(204, 206);
             listView1.TabIndex = 4;
             listView1.UseCompatibleStateImageBehavior = false;
             listView1.View = View.Details;
@@ -129,9 +130,9 @@
             listView2.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3 });
             listView2.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
             listView2.ForeColor = Color.Black;
-            listView2.Location = new Point(584, 257);
+            listView2.Location = new Point(584, 240);
             listView2.Name = "listView2";
-            listView2.Size = new Size(204, 190);
+            listView2.Size = new Size(204, 198);
             listView2.TabIndex = 5;
             listView2.TileSize = new Size(200, 34);
             listView2.UseCompatibleStateImageBehavior = false;
@@ -156,8 +157,8 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = SystemColors.ButtonFace;
-            label1.Location = new Point(584, 233);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(584, 218);
             label1.Name = "label1";
             label1.Size = new Size(46, 19);
             label1.TabIndex = 6;
@@ -169,8 +170,8 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.ForeColor = SystemColors.ButtonFace;
-            label2.Location = new Point(627, 233);
+            label2.ForeColor = SystemColors.ActiveCaptionText;
+            label2.Location = new Point(627, 218);
             label2.Name = "label2";
             label2.Size = new Size(16, 19);
             label2.TabIndex = 7;
@@ -179,8 +180,7 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.FromArgb(128, 128, 255);
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.BackColor = Color.FromArgb(173, 173, 255);
             textBox1.Cursor = Cursors.IBeam;
             textBox1.Location = new Point(31, 211);
             textBox1.Name = "textBox1";
@@ -190,8 +190,7 @@
             // 
             // textBox2
             // 
-            textBox2.BackColor = Color.FromArgb(128, 128, 255);
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
+            textBox2.BackColor = Color.FromArgb(173, 173, 255);
             textBox2.Cursor = Cursors.IBeam;
             textBox2.Location = new Point(181, 63);
             textBox2.Name = "textBox2";
@@ -201,8 +200,7 @@
             // 
             // textBox3
             // 
-            textBox3.BackColor = Color.FromArgb(128, 128, 255);
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
+            textBox3.BackColor = Color.FromArgb(173, 173, 255);
             textBox3.Cursor = Cursors.IBeam;
             textBox3.Location = new Point(31, 63);
             textBox3.Name = "textBox3";
@@ -212,8 +210,7 @@
             // 
             // textBox4
             // 
-            textBox4.BackColor = Color.FromArgb(128, 128, 255);
-            textBox4.BorderStyle = BorderStyle.FixedSingle;
+            textBox4.BackColor = Color.FromArgb(173, 173, 255);
             textBox4.Cursor = Cursors.IBeam;
             textBox4.Location = new Point(31, 257);
             textBox4.Name = "textBox4";
@@ -224,10 +221,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = Color.FromArgb(128, 128, 255);
+            label3.BackColor = Color.FromArgb(173, 173, 255);
             label3.FlatStyle = FlatStyle.System;
             label3.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.Cornsilk;
+            label3.ForeColor = Color.Transparent;
             label3.Location = new Point(12, 9);
             label3.Name = "label3";
             label3.Size = new Size(478, 19);
@@ -239,8 +236,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Peru;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.FromArgb(192, 192, 255);
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(800, 450);
             Controls.Add(label3);
@@ -258,6 +254,7 @@
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
